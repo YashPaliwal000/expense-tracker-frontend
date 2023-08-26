@@ -1,0 +1,12 @@
+<div class="dashboard-container">
+    <h2>Add Expense</h2>
+    <form (ngSubmit)="submitExpenseForm()">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" [(ngModel)]="expense.amount" required>
+
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" [(ngModel)]="expense.description" required>
+
+        <button type="submit">Add Expense</button>
+    </form>
+</div>

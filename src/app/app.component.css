@@ -1,0 +1,42 @@
+/* src/app/app.component.scss */
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+.app-container header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+}
+.app-container header h1 {
+  margin: 0;
+}
+.app-container nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 1rem 0;
+}
+.app-container nav ul li {
+  margin: 0 1rem;
+}
+.app-container nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.app-container nav ul li a:hover {
+  color: #007bff;
+}
+.app-container router-outlet {
+  margin-top: 2rem;
+}
+.app-container footer {
+  margin-top: 2rem;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+/*# sourceMappingURL=app.component.css.map */
